@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/login.css">
+    <title>Blog | Signup</title>
+</head>
+<body style="background-image: url('/img/bgim.jpg'); background-repeat: no-repeat; background-size: cover;">
+    <div class="wrapper">
+        <form class="login-form" action="/signup" method="post">
+            
+            <h1>Sign-Up</h1>
+
+            <div class="input-box">
+                <label for="username"></label>
+                <i class='bx bxs-user' ></i>
+                <input type="text" placeholder="Username" id="username" name="username">
+                <span id="username-error" style="color: red; padding-left: 20px; padding-top: 20px;"></span>
+            </div>
+
+            <div class="input-box">
+                <label for="password"></label>
+                <input type="text" placeholder="Email" id="password" name="password" onkeyup="validateEmail()">
+                <span id="email-error" style="color: red; padding-left: 20px; padding-top: 20px;"></span>
+            </div>
+
+            <div class="input-box">
+                <label for="password"></label>
+                <i class='bx bxs-lock-alt' ></i>
+                <input type="password" placeholder="password" id="password" name="password" onkeyup="validatePassword()">
+                <span id="password-error" style="color: red; padding-left: 20px; padding-top: 20px;"></span>
+            </div>           
+
+            <div class="input-box">
+                <label for="password"></label>
+                <input type="password" placeholder="Re-enter Password" id="repeat" name="password" onkeyup="validateRepeat()">
+                <span id="repeat-error" style="color: red; padding-left: 20px; padding-top: 20px;"></span>
+            </div>
+
+            
+            <button class="btn" href="/login" onclick="return validateForm()">Confirm</button>
+            <span id="submit-error" style="color: red; padding-left: 20px; padding-top: 20px;"></span>           
+
+        </form>
+    </div>
+    
+    <script src="/script/signup.js"></script>
+
+</body>
+</html>

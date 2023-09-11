@@ -1,0 +1,90 @@
+.nav-pills { 
+    margin-left: 100px; /* if the nav is on the right */ 
+    margin-top: 20px; /* if the nav is on the left */ 
+    
+} 
+h1.headone{
+    margin-left: 300px;
+    margin-top: 100px;
+    font-size: 88px;
+}
+h1.headtwo{
+    margin-top: 50px;
+    margin-left: 300px;
+}
+h2{
+    margin-left: 300px;
+    margin-top: 50px;
+    font-size: large;
+    font-weight: bold;
+}
+h3{
+    margin-top: 50px;
+    margin-left: 300px;
+    font-size: x-large;
+    font-style: italic;
+    font-family: brush-script;
+}
+  .bg-light{
+    margin-left:650px ;
+}
+  
+  
+.button3 {
+  border: none;
+  color: white;
+  padding: 4px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+  
+  .button2 {
+    background-color: white; 
+    color: #008CBA; 
+    border: 2px solid #008CBA;
+  }
+  
+  .button2:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+
+
+
+img.one{
+  margin-top: 50px;
+  margin-left: 300px;
+}
+img.two{
+  margin-top: 50px;
+  margin-left: 500px;
+}
+p.paraone{
+  margin-top: 50px;
+  margin-left: 300px;
+}
+p.paratwo{
+  margin-left: 350px;
+  text-align: center;
+  padding-top: 50px;
+}
+p.parathree{
+  margin-left: 350px;
+  text-align: center;
+  padding-top: 25px;
+}
+
+ul{
+  margin-top: 25px;
+  margin-left: 300px;
+}
+.container{
+  margin-top: 50px;
+  margin-left: 280px;
+
+}
